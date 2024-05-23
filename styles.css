@@ -7,7 +7,7 @@ body{
     font-size: 16px;
     line-height: 1.5;
     color: #333;
-    background-color: #EFECE7;
+    background-color: #64584D;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -24,11 +24,19 @@ p,label{
     max-width: 80%;
     margin: 0 auto;
     text-align: center;
+    background-color: #EFECE7;
   }
+
+.backward1{
+    background-image: url('assets/bac-fon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     margin: 0;
 }
 
@@ -43,7 +51,7 @@ p,label{
     text-align: center;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
     margin-top: 60px;
 }
 
@@ -375,7 +383,8 @@ p,label{
 
 .contacts{
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .contacts-mes{
