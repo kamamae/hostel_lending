@@ -25,6 +25,8 @@ p,label{
     margin: 0 auto;
     text-align: center;
     background-color: #EFECE7;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
   }
 
 .backward1{
@@ -50,7 +52,7 @@ p,label{
     justify-content: center;
     text-align: center;
     align-items: center;
-    justify-content: space-around;
+    gap: 10%;
     padding-bottom: 60px;
     margin-top: 60px;
 }
@@ -345,46 +347,44 @@ p,label{
 
 
   
-  .faq-item input[type="checkbox"] {
-    display: none;
-  }
+.faq-item input[type="checkbox"] {
+  display: none;
+}
   
-  .faq-item label {
-    background-color: #EFECE7;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
-  }
+.faq-item label {
+  background-color: #EFECE7;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
   
-  .faq-item label h3 {
-    margin: 0;
-  }
+.faq-item label h3 {
+  margin: 0;
+}
   
-  .faq-item label .faq-toggle {
-    font-size: 24px;
-    font-weight: bold;
-    transition: transform 0.3s;
-  }
+.faq-item label .faq-toggle {
+  font-size: 24px;
+  font-weight: bold;
+  transition: transform 0.3s;
+}
   
-  .faq-item .faq-answer {
-    padding: 10px;
-    display: none;
-  }
+.faq-item .faq-answer {
+  padding: 10px;
+  display: none;
+}
   
-  .faq-item input[type="checkbox"]:checked ~ .faq-answer {
-    display: block;
-  }
+.faq-item input[type="checkbox"]:checked ~ .faq-answer {
+  display: block;
+}
   
-  .faq-item input[type="checkbox"]:checked ~ label .faq-toggle {
+.faq-item input[type="checkbox"]:checked ~ label .faq-toggle {
     transform: rotate(45deg);
-  }
+}
 
 .contacts{
     text-align: center;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
 }
 
 .contacts-mes{
@@ -397,7 +397,6 @@ p,label{
     display: flex;
     flex-direction: column;
     margin: 0%;
-
 }
 
 .contacts-block .section1{
@@ -415,10 +414,9 @@ p,label{
     border: 2px dashed #2C4A41;
     border-radius: 50%;
     padding: 10px;
-    width: 35px;
+    width: auto;
     margin: 5px;
 }
-
 
 .phone{
     background-color: #64584D;
@@ -428,15 +426,14 @@ p,label{
     padding: 7px;
 }
 
-.round-button .contacts{
-    margin-left: auto;
+.round-button-contacts{
+    margin: 0;
+    padding: 0px;
 }
 
 .contacts .flex{
     display: flex;
     align-items: center;
-    max-width: 80%;
-    margin: 0 auto;
 }
 
 .contacts .img{
